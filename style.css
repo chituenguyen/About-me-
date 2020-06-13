@@ -1,0 +1,108 @@
+body{
+	background-color: #DDD;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto",sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.title{
+	background-color: white;
+	text-align: center;
+	color: tomato;
+	padding:1.4rem;
+	font-size: 1.4rem;
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.3)
+}
+.card{
+	display: flex;
+	background-color: white;
+	width: 38rem;
+	height: 15rem;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	position: relative;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+.detail{
+	display: flex;
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 505
+}
+.infomation{
+	margin-left: 3.5rem;
+
+}
+.answer{
+	margin-left: 4rem;
+}
+.introduce span{
+	font-weight: 600;
+}
+.hello{
+	display: inline-block;
+    margin-bottom: 1rem;
+    background-color: tomato;
+    padding: 8px 12px;
+    color: white;
+    user-select: none;
+    position: relative;
+}
+
+.hello:before{
+	content: '';
+	position: absolute;
+	border-width: 6px;
+	border-style: solid;
+	border-color: tomato transparent transparent tomato;
+	left: 0;
+	top: 100%
+}
+.question{
+	font-weight: 600;
+}
+.image{
+	display: flex;
+	align-items: center;
+}
+.website{
+	margin-top: 0.5rem;
+}
+.website a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.4);
+	font-weight: 300;
+}
+.contact{
+	position: absolute;
+	left: 0;
+	top:100%;
+	width: 100%;
+	background-color:tomato;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.contact a{
+	color: white;
+	padding: 8px 12px;
+	opacity: 0.7;
+	transition: 250ms ;
+}
+
+.contact a:hover{
+	opacity: 1
+}
